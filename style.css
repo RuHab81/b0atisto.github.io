@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 2rem;
+  background-color: #111;
+  color: #eee;
+  font-family: 'Courier New', monospace;
+}
+h1, h2 {
+  color: #50fa7b;
+}
+a {
+  color: #8be9fd;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.lang-switch {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+}
+button {
+  background: #222;
+  color: #eee;
+  border: 1px solid #444;
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+button:hover {
+  background: #333;
+}
